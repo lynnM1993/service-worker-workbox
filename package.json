@@ -1,0 +1,27 @@
+{
+  "name": "sw-workbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-proxy2": "^0.11.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "workbox": "0.0.0",
+    "workbox-sw": "^4.1.1"
+  },
+  "description": ""
+}
